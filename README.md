@@ -39,4 +39,21 @@ atulkrishnathakur@atul-pc:~$ sudo systemctl start mongod
 atulkrishnathakur@atul-pc:~$ sudo systemctl status mongod
 
 ```
-3. run `mongosh` command and check 
+3. run `mongosh` command and check
+
+# How to install compass for mongodb in ubuntu 24.04
+1. https://www.mongodb.com/try/download/compass
+2. download the compas
+3. install package using `dpkg`
+   ```
+   atulkrishnathakur@atul-pc:~/Downloads$ sudo dpkg -i mongodb-compass_1.49.5_amd64.deb
+   ```
+4. Fix missing dependencies (if any errors appear):
+   ```
+   atulkrishnathakur@atul-pc:~/Downloads$ sudo apt --fix-broken install -y
+   
+   ```
+5. Run command to open compass
+   ```
+   atulkrishnathakur@atul-pc:~$ mongodb-compass
+   ```
