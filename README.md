@@ -39,5 +39,4 @@ atulkrishnathakur@atul-pc:~$ sudo systemctl start mongod
 atulkrishnathakur@atul-pc:~$ sudo systemctl status mongod
 
 ```
-
-# run `mongosh` command for mongodb console 
+3. run `mongosh` command and check 
