@@ -39,7 +39,7 @@ atulkrishnathakur@atul-pc:~$ sudo systemctl start mongod
 atulkrishnathakur@atul-pc:~$ sudo systemctl status mongod
 
 ```
-3. run `mongosh` command and check
+3. run `mongosh` command to open mongo shell
 
 # How to install compass for mongodb in ubuntu 24.04
 1. https://www.mongodb.com/try/download/compass
